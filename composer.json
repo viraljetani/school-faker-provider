@@ -1,0 +1,24 @@
+{
+    "name": "viraljetani/school-faker-provider",
+    "description": "Faker provider to generate school names and such.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viral Jetani",
+            "email": "viral@enhancetv.com.au"
+        }
+    ],
+    "version": "1.0.0",
+    "keywords": ["faker", "provider"],
+    "require": {
+        "fzaninotto/faker": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Faker\\Provider\\": "src"
+        }
+    },
+    "config": {
+        "secure-http": false
+    }
+}
